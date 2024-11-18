@@ -1,0 +1,93 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Manrope';
+  background: #202733;
+
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,ol {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 375px;
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+
+.cart {
+ padding-block: 40px 32px;
+ padding-inline: 24px;
+ background: #313A48;
+ box-shadow: 30px 50px 80px 0px #0000001A;
+ text-align: center;
+ border-radius: 10px;
+ margin-top: 120px;
+ position: relative;
+
+ h6 {
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 15.03px;
+  letter-spacing: 3.4571425914764404px;
+  color: #53FFAA;
+  padding-bottom: 24px;
+ }
+ blockquote {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32.78px;
+  letter-spacing: -0.2571428716182709px;
+  color: #CEE3E9;
+ }
+ .border-img {
+  margin-block: 40px;
+ }
+ .dice {
+  position: absolute;
+  left: 140px;
+  cursor: pointer;
+ 
+  
+ }
+ .dice:hover{
+  box-shadow: 0px 0px 40px 10px #53FFAA; 
+  background: #53FFAA;
+ }
+}
+
+
